@@ -106,6 +106,7 @@ const dictionaryData = [
             {
                 original: "",
                 translations: {
+                    fr: "",
                     en: "",
                     ja: "",
                     zh: "" 
@@ -128,6 +129,7 @@ const dictionaryData = [
             {
                 original: "",
                 translations: {
+                    fr: "",
                     en: "",
                     ja: "",
                     zh: "" 
@@ -150,6 +152,7 @@ const dictionaryData = [
             {
                 original: "",
                 translations: {
+                    fr: "",
                     en: "",
                     ja: "",
                     zh: "" 
@@ -214,7 +217,6 @@ const dictionaryData = [
             ja: "",
             zh: "",
             zh: "星期",
-            note: ""
         },
         examples: [
             {
@@ -238,7 +240,6 @@ const dictionaryData = [
             ja: "",
             zh: "",
             zh: "星期",
-            note: ""
         },
         examples: [
             {
