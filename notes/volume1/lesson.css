@@ -1,0 +1,26 @@
+.lesson-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.lesson-section {
+    margin: 30px 0;
+}
+
+.lesson-section h2 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+.lesson-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.lesson-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,425 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0; /* 防止内容溢出 */
+}
+
+.word-sidebar {
+    width: 250px;
+    flex-shrink: 0; /* 防止侧边栏被压缩 */
+}
+
+.back-nav {
+    margin-bottom: 20px;
+}
+
+.back-nav a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.word-index {
+    display: none; /* 词条索引默认隐藏 */
+}
+
+/* 词典页面特定样式 */
+.search-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    padding: 12px;
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #2980b9;
+}
+
+.search-container button {
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* 词条样式 */
+.entry {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* 侧边栏样式 */
+.word-sidebar {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.word-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ecf0f1;
+    transition: all 0.3s;
+}
+
+.word-item:hover {
+    background-color: #f7f9fa;
+    color: #3498db;
+}
+
+/* 搜索区域样式 */
+.search-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.search-input-wrapper {
+    position: relative;
+    flex: 1;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #2980b9;
+}
+
+.search-container button {
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+
+.search-container button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* 搜索建议列表样式 */
+#suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.suggestion-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.suggestion-item:hover {
+    background-color: #f5f5f5;
+}
+
+/* 词条样式 */
+.entry {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* 侧边栏样式 */
+.word-sidebar {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.word-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ecf0f1;
+    transition: all 0.3s;
+}
+
+.word-item:hover {
+    background-color: #f7f9fa;
+    color: #3498db;
+}
+
+.search-container {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #357abd;
+}
+
+.entry[hidden] {
+    display: none;
+}
+
+
+/* 添加课程筛选样式 */
+.lesson-filter {
+    margin: 20px 0;
+}
+
+.lesson-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.lesson-button {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.lesson-button:hover {
+    background-color: #e0e0e0;
+}
+
+.lesson-button.active {
+    background-color: #4a90e2;
+    color: white;
+    border-color: #4a90e2;
+}
+
+
+.search-input-wrapper {
+    position: relative;
+    flex: 1;
+}
+
+.suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1000;
+    border-radius: 0 0 4px 4px;
+}
+
+.suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f5f5f5;
+}
+
+.search-result {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f0f7ff;
+    border-radius: 8px;
+    border: 1px solid #d0e3ff;
+}
+
+.conjugation {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.conjugation h3 {
+    color: #4a90e2;
+    margin-bottom: 15px;
+}
+
+.conjugation table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.conjugation td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.conjugation td:first-child {
+    font-weight: bold;
+    width: 100px;
+    color: #666;
+}
+
+
+/* 添加主容器样式 */
+.main-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* 侧边栏样式 */
+.word-sidebar {
+    width: 250px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: calc(100vh - 100px);
+    position: sticky;
+    top: 20px;
+    display: none;
+}
+
+.sidebar-header {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.word-list {
+    padding: 15px;
+    overflow-y: auto;
+    height: calc(100% - 60px);
+}
+
+.word-item {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.word-item:hover {
+    background-color: #f0f7ff;
+}
+
+/* 主内容区域样式 */
+.main-content {
+    flex: 1;
+}
+
+.entry.highlight {
+    animation: highlight 2s ease-out;
+}
+
+@keyframes highlight {
+    0% { background-color: #fff7e6; }
+    100% { background-color: white; }
+}
+
+/* 删除原有的字体声明，改用 common.css 中的类 */
+.headword h1,
+.original,
+.word-item,
+.suggestion-item,
+.conjugation td:nth-child(2) {
+    font-family: 'A-Himalaya', sans-serif;
+}
