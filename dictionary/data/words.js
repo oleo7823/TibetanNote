@@ -161,6 +161,281 @@ const dictionaryData = [
         ]
     },
     {
+        word: "བོད་པ།",
+        lesson: "V01-L09",
+        audio: "./sounds/V1L1-02.wav",
+        partOfSpeech: "N",
+        meanings: {
+            fr: "tibétain",
+            en: "",
+            ja: "",
+            zh: ""
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },{
+        word: "བསྡད་ས།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-10.wav",
+        partOfSpeech: "N",
+        meanings: {
+            fr: "lieu de naissance",
+            en: "",
+            ja: "",
+            zh: ""
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "སློབ་གྲྭ།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-11.wav",
+        partOfSpeech: "",
+        meanings: {
+            fr: "école",
+            en: "",
+            ja: "",
+            zh: ""
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "སློབ་གྲྭ་བ།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-12.wav",
+        partOfSpeech: "",
+        meanings: {
+            fr: "étudiant",
+            en: "",
+            ja: "",
+            zh: ""
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "དགེ་རྒན།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-13.wav",
+        partOfSpeech: "N",
+        meanings: {
+            fr: "professeur",
+            en: "",
+            ja: "",
+            zh: ""
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "ཡི་གེ།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-14.wav",
+        partOfSpeech: "",
+        meanings: {
+            fr: "lettre",
+            en: "",
+            ja: "",
+            zh: ""
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "སུ།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-15.wav",
+        partOfSpeech: "Interog.Pron",
+        meanings: {
+            fr: "qui",
+            en: "who",
+            ja: "誰",
+            zh: "谁"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "ག་རེ།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-16.wav",
+        partOfSpeech: "Interog.Pron",
+        meanings: {
+            fr: "quoi",
+            en: "what",
+            ja: "何",
+            zh: "什么"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "ག་ནས།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-17.wav",
+        partOfSpeech: "Interog.Pron",
+        meanings: {
+            fr: "d'où",
+            en: "from where",
+            ja: "どこから",
+            zh: "从哪里"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "ག་པར།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-18.wav",
+        partOfSpeech: "Interog.Pron",
+        meanings: {
+            fr: "où",
+            en: "where",
+            ja: "どこ",
+            zh: "哪里"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "ནས།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-19.wav",
+        partOfSpeech: "Postp:abl",
+        meanings: {
+            fr: "de",
+            en: "from",
+            ja: "から",
+            zh: "从"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "ལ།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-20.wav",
+        partOfSpeech: "Postp:dat.loc",
+        meanings: {
+            fr: "à ; en",
+            en: "to ; at ; in",
+            ja: "に；で",
+            zh: "给；在"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
         word: "བོད།",
         lesson: "V01-L01",
         audio: "./sounds/V1L1-08.wav",
