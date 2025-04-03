@@ -161,6 +161,29 @@ const dictionaryData = [
         ]
     },
     {
+        word: "བོད།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-08.wav",
+        partOfSpeech: "",
+        meanings: {
+            fr: "Tibet",
+            en: "Tibet",
+            ja: "チベット",
+            zh: "西藏"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
         word: "བོད་པ།",
         lesson: "V01-L09",
         audio: "./sounds/V1L1-02.wav",
@@ -422,29 +445,6 @@ const dictionaryData = [
             en: "to ; at ; in",
             ja: "に；で",
             zh: "给；在"
-        },
-        examples: [
-            {
-                original: "",
-                translations: {
-                    fr: "",
-                    en: "",
-                    ja: "",
-                    zh: ""
-                }
-            }
-        ]
-    },
-    {
-        word: "བོད།",
-        lesson: "V01-L01",
-        audio: "./sounds/V1L1-08.wav",
-        partOfSpeech: "",
-        meanings: {
-            fr: "Tibet",
-            en: "Tibet",
-            ja: "チベット",
-            zh: "西藏"
         },
         examples: [
             {
