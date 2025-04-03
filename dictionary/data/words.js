@@ -164,7 +164,7 @@ const dictionaryData = [
         word: "བོད།",
         lesson: "V01-L01",
         audio: "./sounds/V1L1-08.wav",
-        partOfSpeech: "",
+        partOfSpeech: "N",
         meanings: {
             fr: "Tibet",
             en: "Tibet",
