@@ -185,8 +185,8 @@ const dictionaryData = [
     },
     {
         word: "བོད་པ།",
-        lesson: "V01-L09",
-        audio: "./sounds/V1L1-02.wav",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-09.wav",
         partOfSpeech: "N",
         meanings: {
             fr: "tibétain",
