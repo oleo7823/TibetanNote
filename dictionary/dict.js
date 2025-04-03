@@ -169,6 +169,7 @@ function createEntryHTML(entryData) {
                     <div class="example">
                         <p class="original" style="margin-left: 20px;">${example.original}</p>
                         <div class="translations-wrapper" style="margin-left: 25px;">
+                            <p class="translation fr">${example.translations.fr}</p>
                             <p class="translation en">${example.translations.en}</p>
                             <p class="translation ja">${example.translations.ja}</p>
                             <p class="translation zh">${example.translations.zh}</p>

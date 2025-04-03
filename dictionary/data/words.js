@@ -1,14 +1,186 @@
 const dictionaryData = [
     {
-        word: "བཀྲ་ཤིས་བདེ་ལེགས།",
+        word: "ང་།",
         lesson: "V01-L01",
-        audio: "sounds/tashi_delek.wav",
-        partOfSpeech: "问候语",
+        audio: "./sounds/V1L1-01.wav",
+        partOfSpeech: "Pron",
         meanings: {
-            // ... 现有内容保持不变 ...
+            fr: "Je ; moi",
+            en: "I, me",
+            ja: "私",
+            zh: "我"
         },
         examples: [
-            // ... 现有内容保持不变 ...
+            {
+                original: "ང་བོད་པ་ཡིན།",
+                translations: {
+                    fr: "Je suis tibétain.",
+                    en: "I am tibetan.",
+                    ja: "私はチベット人です。",
+                    zh: "我是藏族人。"
+                }
+            }
+        ]
+    },
+    {
+        word: "ཁྱེད་རད་།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-02.wav",
+        partOfSpeech: "Pron",
+        meanings: {
+            fr: "vous (honorifique) ; tu",
+            en: "you (honorific) ; you",
+            ja: "あなた",
+            zh: "你"
+        },
+        examples: [
+            {
+                original: "ཁྱེད་རང་གི་མིང་ལ་ག་རེ་ཟེར་ཀྱི་ཡོད་རེད།",
+                translations: {
+                    fr: "Comment vous appellez-vous?",
+                    en: "What is your name?",
+                    ja: "お名前は何ですか？",
+                    zh: "你叫什么名字？"
+                }
+            }
+        ]
+    },
+    {
+        word: "ཁོང་།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-03.wav",
+        partOfSpeech: "Pron",
+        meanings: {
+            fr: "il ; lui ; elle",
+            en: "he ; she",
+            ja: "彼、彼女",
+            zh: "他，她"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "ཁོང་ཚོ།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-04.wav",
+        partOfSpeech: "Pron",
+        meanings: {
+            fr: "ils ; eux ; elles",
+            en: "they",
+            ja: "彼ら、彼女ら",
+            zh: "他们，她们"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "ཁོད་གི",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-05.wav",
+        partOfSpeech: "Dem",
+        meanings: {
+            fr: "a lui ; de lui ; sien",
+            en: "his ; her",
+            ja: "彼の、彼女の",
+            zh: "他的，她的"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "མིང་།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-06.wav",
+        partOfSpeech: "N",
+        meanings: {
+            fr: "nom",
+            en: "name",
+            ja: "名前",
+            zh: "名字"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "ལྷ་ས།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-07.wav",
+        partOfSpeech: "N",
+        meanings: {
+            fr: "Lhassa",
+            en: "Lhasa",
+            ja: "ラサ",
+            zh: "拉萨"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
+        ]
+    },
+    {
+        word: "བོད།",
+        lesson: "V01-L01",
+        audio: "./sounds/V1L1-08.wav",
+        partOfSpeech: "",
+        meanings: {
+            fr: "Tibet",
+            en: "Tibet",
+            ja: "チベット",
+            zh: "西藏"
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: ""
+                }
+            }
         ]
     },
     {
@@ -95,11 +267,11 @@ const dictionaryData = [
         word: "ང་རང་།",
         lesson: "V02-L01",
         audio: "sounds/nga_rang.wav",
-        partOfSpeech: "pron",
+        partOfSpeech: "Pron",
         meanings: {
             fr: "moi-même ; moi",
-            ja: "",
-            zh: "",
+            en: "I; myself",
+            ja: "私；私自分",
             zh: "我自己；我"
         },
         examples: [
@@ -121,8 +293,8 @@ const dictionaryData = [
         partOfSpeech: "pron",
         meanings: {
             fr: "il ; elle",
-            ja: "",
-            zh: "",
+            en: "he; she",
+            ja: "彼；彼女",
             zh: "他；她"
         },
         examples: [
@@ -144,9 +316,9 @@ const dictionaryData = [
         partOfSpeech: "n",
         meanings: {
             fr: "ami ; amie ; aide",
-            ja: "",
-            zh: "",
-            zh: "朋友；帮手"
+            en: "friend; help",
+            ja: "友達；助かり",
+            zh: "朋友；帮助",
         },
         examples: [
             {
@@ -167,8 +339,8 @@ const dictionaryData = [
         partOfSpeech: "n",
         meanings: {
             fr: "(apparaître-base) projet",
-            ja: "",
-            zh: "",
+            en: "plan",
+            ja: "プラン",
             zh: "计划",
         },
         examples: [
@@ -190,8 +362,8 @@ const dictionaryData = [
         partOfSpeech: "n",
         meanings: {
             fr: "futur ; avenir",
-            ja: "",
-            zh: "",
+            en: "future",
+            ja: "未来",
             zh: "未来",
             note: "neg-venir"
         },
@@ -214,8 +386,8 @@ const dictionaryData = [
         partOfSpeech: "n",
         meanings: {
             fr: "(sept-aine) semaine",
-            ja: "",
-            zh: "",
+            en: "week",
+            ja: "週",
             zh: "星期",
         },
         examples: [
@@ -237,8 +409,8 @@ const dictionaryData = [
         partOfSpeech: "n",
         meanings: {
             fr: "(planète-tourner) semaine",
-            ja: "",
-            zh: "",
+            en: "week",
+            ja: "週",
             zh: "星期",
         },
         examples: [
