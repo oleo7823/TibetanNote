@@ -358,6 +358,9 @@ body {
     color: #666;
 }
 
+.translations-wrapper {
+    margin-left: 20px;
+}
 
 /* 添加主容器样式 */
 .main-container {

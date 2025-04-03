@@ -72,7 +72,7 @@ const dictionaryData = [
         word: "རང་།",
         lesson: "V02-L01",
         audio: "sounds/rang.wav",
-        partOfSpeech: "pron",
+        partOfSpeech: "Pron",
         meanings: {
             fr: "tu ; toi ; soi-même",
             en: "you ; yourself ; yourself",
