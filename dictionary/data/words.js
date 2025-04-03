@@ -190,9 +190,9 @@ const dictionaryData = [
         partOfSpeech: "N",
         meanings: {
             fr: "tibétain",
-            en: "",
-            ja: "",
-            zh: ""
+            en: "Tibetan",
+            ja: "チベット人",
+            zh: "藏人"
         },
         examples: [
             {
@@ -212,9 +212,9 @@ const dictionaryData = [
         partOfSpeech: "N",
         meanings: {
             fr: "lieu de naissance",
-            en: "",
-            ja: "",
-            zh: ""
+            en: "birthplace",
+            ja: "出身地",
+            zh: "出生地"
         },
         examples: [
             {
@@ -235,9 +235,9 @@ const dictionaryData = [
         partOfSpeech: "",
         meanings: {
             fr: "école",
-            en: "",
-            ja: "",
-            zh: ""
+            en: "school",
+            ja: "学校",
+            zh: "学校"
         },
         examples: [
             {
@@ -258,9 +258,9 @@ const dictionaryData = [
         partOfSpeech: "",
         meanings: {
             fr: "étudiant",
-            en: "",
-            ja: "",
-            zh: ""
+            en: "student",
+            ja: "学生",
+            zh: "学生"
         },
         examples: [
             {
@@ -281,9 +281,9 @@ const dictionaryData = [
         partOfSpeech: "N",
         meanings: {
             fr: "professeur",
-            en: "",
-            ja: "",
-            zh: ""
+            en: "teacher",
+            ja: "先生",
+            zh: "老师"
         },
         examples: [
             {
@@ -304,9 +304,9 @@ const dictionaryData = [
         partOfSpeech: "",
         meanings: {
             fr: "lettre",
-            en: "",
-            ja: "",
-            zh: ""
+            en: "letter",
+            ja: "文字",
+            zh: "字"
         },
         examples: [
             {
