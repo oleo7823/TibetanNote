@@ -156,11 +156,23 @@ function createEntryHTML(entryData) {
             <div class="definitions">
                 <p class="part-of-speech"><b>${entryData.partOfSpeech}</b></p>
                 ${conjugationHTML}
-                <div class="meaning">
-                    <p class="lang-fr">${entryData.meanings.fr}</p>
-                    <p class="lang-en">${entryData.meanings.en}</p>
-                    <p class="lang-ja">${entryData.meanings.ja}</p>
-                    <p class="lang-zh">${entryData.meanings.zh}</p>
+                <div class="meaning" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
+                    <div class="meaning-block">
+                        <h4>Français</h4>
+                        <p class="lang-fr">${entryData.meanings.fr}</p>
+                    </div>
+                    <div class="meaning-block">
+                        <h4>English</h4>
+                        <p class="lang-en">${entryData.meanings.en}</p>
+                    </div>
+                    <div class="meaning-block">
+                        <h4>日本語</h4>
+                        <p class="lang-ja">${entryData.meanings.ja}</p>
+                    </div>
+                    <div class="meaning-block">
+                        <h4>中文</h4>
+                        <p class="lang-zh">${entryData.meanings.zh}</p>
+                    </div>
                 </div>
             </div>
             
@@ -245,11 +257,23 @@ function generateEntryHTML(entry) {
                 <source src="${entry.audio}" type="audio/wav">
             </audio>
 
-            <div class="meaning">
-                <p class="lang-fr">${entry.meanings.fr}</p>
-                <p class="lang-en">${entry.meanings.en}</p>
-                <p class="lang-ja">${entry.meanings.ja}</p>
-                <p class="lang-zh">${entry.meanings.zh}</p>
+            <div class="meaning" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
+                <div class="meaning-block">
+                    <h4>Français</h4>
+                    <p class="lang-fr">${entry.meanings.fr}</p>
+                </div>
+                <div class="meaning-block">
+                    <h4>English</h4>
+                    <p class="lang-en">${entry.meanings.en}</p>
+                </div>
+                <div class="meaning-block">
+                    <h4>日本語</h4>
+                    <p class="lang-ja">${entry.meanings.ja}</p>
+                </div>
+                <div class="meaning-block">
+                    <h4>中文</h4>
+                    <p class="lang-zh">${entry.meanings.zh}</p>
+                </div>
             </div>
 
             ${entry.conjugation ? `

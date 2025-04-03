@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 1200px;
+    max-width: 1500px;
     width: 95%;
     margin: 0 auto;
     padding: 20px;
@@ -374,12 +374,20 @@ body {
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    height: calc(100vh - 100px);
-    position: sticky;
-    top: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0; /* 改为left: 0 */
     display: none;
+    overflow-y: auto;
+    padding-top: 20px;
 }
 
+/* 调整主容器左侧边距 */
+.main-container {
+    padding-right: 0; /* 移除右侧内边距 */
+    padding-left: 270px; /* 添加左侧内边距，为侧边栏留出空间 */
+}
 .sidebar-header {
     padding: 15px;
     border-bottom: 1px solid #eee;
@@ -418,6 +426,25 @@ body {
     100% { background-color: white; }
 }
 
+.meaning-block {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.meaning-block h4 {
+    margin: 0 0 10px 0;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.meaning-block p {
+    margin: 0;
+}
 /* 删除原有的字体声明，改用 common.css 中的类 */
 .headword h1,
 .original,
