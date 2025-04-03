@@ -81,12 +81,12 @@ const dictionaryData = [
         },
         examples: [
             {
-                original: "",
+                original: "ལོ་ལྟར་རེ་བཞིན་རང་ཕ་ཡུལ་ལ་ལོག་འགྲོ་གི་མ་རེད་པས།",
                 translations: {
-                    fr: "",
-                    en: "",
-                    ja: "",
-                    zh: "" 
+                    fr: "Tu ne rentres pas à ton pays d'origine chaque année ?",
+                    en: "You don't go to your home country every year?",
+                    ja: "あなたは毎年自分の出身国に帰りませんか？",
+                    zh: "你每年都不会老家吗？" 
                 }
             }
         ]
