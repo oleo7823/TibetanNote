@@ -682,11 +682,35 @@ const dictionaryData = [
         lesson: "V02-L01",
         audio: "sounds/sa_khor.wav",
         partOfSpeech: "n",
+        etymology: "གཟའ་(planet) + འཁོར་(turn)", 
         meanings: {
             fr: "(planète-tourner) semaine",
             en: "week",
             ja: "週",
             zh: "星期",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
+    {
+        word: "",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "",
+        meanings: {
+            fr: "",
+            en: "",
+            ja: "",
+            zh: "",
         },
         examples: [
             {

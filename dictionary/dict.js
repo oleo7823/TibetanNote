@@ -154,7 +154,10 @@ function createEntryHTML(entryData) {
             </div>
             
             <div class="definitions">
-                <p class="part-of-speech"><b>${entryData.partOfSpeech}</b></p>
+                <p class="part-of-speech">
+                    <b>${entryData.partOfSpeech}</b>
+                    ${entryData.etymology ? `<span class="etymology"> • ${entryData.etymology}</span>` : ''}
+                </p>
                 ${conjugationHTML}
                 <div class="meaning" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
                     <div class="meaning-block">

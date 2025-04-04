@@ -358,6 +358,12 @@ body {
     color: #666;
 }
 
+.etymology {
+    color: #666;
+    font-style: italic;
+    font-size: 1em;
+}
+
 .translations-wrapper {
     margin-left: 20px;
 }
