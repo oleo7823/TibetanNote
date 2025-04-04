@@ -889,6 +889,11 @@ const dictionaryData = [
                 }
             }
         ],
+    },
+    {
+        word: "འཚོ་བ།",
+        lesson: "V02-L02",
+        audio: "",
         partOfSpeech: "V",
         meanings: {
             fr: "vivre",
@@ -908,6 +913,52 @@ const dictionaryData = [
             }
         ]
     },
-
+    {
+        word: "འགྲམ།",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "Postp",
+        meanings: {
+            fr: "au bord de",
+            en: "at the edge of",
+            ja: "の辺りに",
+            zh: "在...边",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
+    {
+        word: "སྐད་གྲགས་ཆེན་པོ།",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "Adj",
+        etymology: "སྐད་(voice)-གྲགས་(renown)-ཆེན་པོ་(big)",
+        meanings: {
+            fr: "célèbre",
+            en: "famous",
+            ja: "有名な",
+            zh: "有名",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
     // ... 其他数据项 ...
 ];

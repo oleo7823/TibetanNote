@@ -375,24 +375,40 @@ body {
 }
 
 /* 侧边栏样式 */
+/* 修改侧边栏样式，调整顶部位置 */
 .word-sidebar {
     width: 250px;
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    height: 100vh;
+    height: calc(100vh - 120px); /* 减少高度，为顶部导航留出空间 */
     position: fixed;
-    top: 0;
-    left: 0; /* 改为left: 0 */
+    top: 120px; /* 调整顶部位置，避免遮挡导航 */
+    left: 20px;
     display: none;
     overflow-y: auto;
     padding-top: 20px;
 }
 
-/* 调整主容器左侧边距 */
+/* 调整主容器样式 */
 .main-container {
-    padding-right: 0; /* 移除右侧内边距 */
-    padding-left: 270px; /* 添加左侧内边距，为侧边栏留出空间 */
+    padding-right: 0;
+    padding-left: 290px; /* 增加左侧内边距 */
+    margin-top: 20px; /* 为顶部导航留出空间 */
+}
+
+/* 确保返回导航按钮始终可见 */
+.back-nav {
+    position: relative;
+    z-index: 1000; /* 确保导航在侧边栏之上 */
+    margin-bottom: 20px;
+    margin-left: 290px; /* 与主容器对齐 */
+}
+
+/* 调整主内容区域的位置 */
+.main-content {
+    flex: 1;
+    margin-top: 20px;
 }
 .sidebar-header {
     padding: 15px;
