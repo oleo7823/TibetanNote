@@ -702,12 +702,37 @@ const dictionaryData = [
         ]
     },
     {
-        word: "",
+        word: "མདུན་ལམ།",
         lesson: "V02-L02",
         audio: "",
-        partOfSpeech: "",
+        partOfSpeech: "N",
+        etymology: "མདུན་(front)-ལམ་(way)",
         meanings: {
-            fr: "",
+            fr: "avenir ; perspective d'avenir",
+            en: "future",
+            ja: "進路",
+            zh: "前途",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
+    {
+        word: "གྲོ་མ་འབྲས་སིལ།",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "N",
+        etymology: "གྲོ་མ་(silverweed)-འབྲས་(rice)-སིལ་(fragment)",
+        meanings: {
+            fr: "riz au beurre et aux bulbes de potentille",
             en: "",
             ja: "",
             zh: "",
@@ -724,5 +749,165 @@ const dictionaryData = [
             }
         ]
     },
+    {
+        word: "བག་ལེབ།",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "N",
+        etymology: "བག་(dough)-ལེབ་(flat)",
+        meanings: {
+            fr: "pain",
+            en: "bread",
+            ja: "餅",
+            zh: "饼",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
+    {
+        word: "ཤ་བག་ལེབ།",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "N",
+        etymology: "ཤ་(meat)-བག་(dough)-ལེབ་(flat)",
+        meanings: {
+            fr: "beignet à l viande",
+            en: "meat pie",
+            ja: "肉ベイ",
+            zh: "肉饼",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
+    {
+        word: "མ་བྱན།",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "NN",
+        meanings: {
+            fr: "cuisinier",
+            en: "cook",
+            ja: "料理人",
+            zh: "厨师",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
+    {
+        word: "ནད་པ།",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "N",
+        meanings: {
+            fr: "un(e) malade",
+            en: "patient",
+            ja: "患者",
+            zh: "病人",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
+    {
+        word: "མོ་ཊ།",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "N",
+        etymology: "<motor",
+        meanings: {
+            fr: "voiture",
+            en: "car",
+            ja: "車",
+            zh: "汽车",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
+    {
+        word: "འཚོ་བ།",
+        lesson: "V02-L02",
+        audio: "",
+        partOfSpeech: "N",
+        meanings: {
+            fr: "vie ; existence ; conditions de vie",
+            en: "life",
+            ja: "生活",
+            zh: "生活",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ],
+        partOfSpeech: "V",
+        meanings: {
+            fr: "vivre",
+            en: "live",
+            ja: "暮らす",
+            zh: "生活",
+        },
+        examples: [
+            {
+                original: "",
+                translations: {
+                    fr: "",
+                    en: "",
+                    ja: "",
+                    zh: "" 
+                }
+            }
+        ]
+    },
+
     // ... 其他数据项 ...
 ];
