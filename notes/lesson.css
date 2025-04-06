@@ -26,6 +26,40 @@
 }
 
 .lesson-section p {
-    line-height: 1.6;
-    margin-bottom: 15px;
+    line-height: 1.2;
+    margin-bottom: 1.5px;
+}
+
+/* 为包含行间标注的段落添加缩进 */
+p:has(ruby) {
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.gloss-translation {
+    color: #2c3e50;
+    font-style: italic;
+    line-height: 1 !important;
+    margin-left: 2em;
+}
+
+ruby {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 2px;
+    line-height: 1.2; /* 减小行间距 */
+}
+
+ruby[lang="bo"] {
+    font-family: 'A-Himalaya', sans-serif;
+    font-size: 1.1em;
+}
+
+rt {
+    font-size: 0.8em;
+    color: #666;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+    text-align: left;
 }
