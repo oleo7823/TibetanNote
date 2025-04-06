@@ -20,6 +20,11 @@
     line-height: 1.6;
 }
 
+.lesson-section p:lang(bo) {
+    font-family: 'A-Himalaya', sans-serif;
+    font-size: 1.3em;
+}
+
 .lesson-section p {
     line-height: 1.6;
     margin-bottom: 15px;
