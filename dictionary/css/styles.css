@@ -7,15 +7,6 @@ body {
     color: #333;
 }
 
-.back-nav {
-    margin-bottom: 20px;
-}
-
-.back-nav a {
-    color: #4a90e2;
-    text-decoration: none;
-}
-
 h1 {
     text-align: center;
     color: #2c3e50;
@@ -154,20 +145,54 @@ h1 {
 }
 
 .suggestion-translations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    flex-grow: 1;
+}
+
+.suggestion-left {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
+.suggestion-right {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-left: 1px solid #eee;
+    padding-left: 15px;
+}
+
+.suggestion-cn, .suggestion-en, .suggestion-ja, .suggestion-fr {
+    font-size: 13px;
+}
+
 .suggestion-cn {
     color: #333;
-    font-size: 14px;
 }
 
 .suggestion-en {
+    color: #555;
+}
+
+.suggestion-ja {
     color: #666;
-    font-size: 13px;
+}
+
+.suggestion-fr {
+    color: #777;
     font-style: italic;
+}
+
+.suggestion-item {
+    padding: 12px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    border-bottom: 1px solid #eee;
 }
 
 /* 修改搜索容器样式 */

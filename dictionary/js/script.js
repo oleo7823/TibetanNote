@@ -159,8 +159,14 @@ function showSearchSuggestions(searchTerm) {
             div.innerHTML = `
                 <span class="suggestion-tibetan">${word.word}</span>
                 <div class="suggestion-translations">
-                    <span class="suggestion-cn">${word.trans_cn}</span>
-                    <span class="suggestion-en">${word.trans_en}</span>
+                    <div class="suggestion-left">
+                        <span class="suggestion-cn">${word.trans_cn || ''}</span>
+                        <span class="suggestion-en">${word.trans_en || ''}</span>
+                    </div>
+                    <div class="suggestion-right">
+                        <span class="suggestion-ja">${word.trans_ja || ''}</span>
+                        <span class="suggestion-fr">${word.trans_fr || ''}</span>
+                    </div>
                 </div>
             `;
             div.onclick = () => {
