@@ -99,7 +99,7 @@ function displayResults(results) {
             `<button class="audio-button" onclick="playAudio('${word.audio}')">Play Audio</button>` : '';
 
         wordCard.innerHTML = `
-            <div class="word-tibetan">${word.word} ${audioButton}</div>
+            <div class="word-tibetan">${word.word} ${word.pos ? `<span class="pos-tag">${word.pos}</span>` : ''} ${audioButton}</div>
             <div class="translations">
                 <div>Chinese: ${word.trans_cn || ''}</div>
                 <div>English: ${word.trans_en || ''}</div>
@@ -107,7 +107,6 @@ function displayResults(results) {
                 <div>French: ${word.trans_fr || ''}</div>
             </div>
             <div style="margin-top: 10px">
-                <div>Part of Speech: ${word.pos || ''}</div>
                 ${word.etymology ? `<div>Etymology: ${word.etymology}</div>` : ''}
                 ${word.example ? `
                     <div class="example-box">

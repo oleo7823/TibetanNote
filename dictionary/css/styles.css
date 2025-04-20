@@ -315,6 +315,22 @@ h1 {
     color: #2c3e50;  /* 加深颜色，提高对比度 */
 }
 
+.pos-tag {
+    font-size: 14px;
+    color: #666;
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    height: fit-content;
+    margin-right: auto;
+}
+
 .example-box {
     background-color: #f8f9fa;
     border-radius: 5px;
