@@ -101,10 +101,10 @@ function displayResults(results) {
         wordCard.innerHTML = `
             <div class="word-tibetan">${word.word} ${word.pos ? `<span class="pos-tag">${word.pos}</span>` : ''} ${audioButton}</div>
             <div class="translations">
-                <div>Chinese: ${word.trans_cn || ''}</div>
-                <div>English: ${word.trans_en || ''}</div>
-                <div>Japanese: ${word.trans_ja || ''}</div>
-                <div>French: ${word.trans_fr || ''}</div>
+                <div>CN: ${word.trans_cn || ''}</div>
+                <div>EN: ${word.trans_en || ''}</div>
+                <div>JP: ${word.trans_ja || ''}</div>
+                <div>FR: ${word.trans_fr || ''}</div>
             </div>
             <div style="margin-top: 10px">
                 ${word.etymology ? `<div>Etymology: ${word.etymology}</div>` : ''}
